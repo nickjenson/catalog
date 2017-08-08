@@ -1,0 +1,63 @@
+/* - This stylizes the injected links within the #user-nav element, and updates various icon colors - */
+/* - Default Element Styles - */
+a {color: #495967;}
+/* - #user-nav Styles - */
+#user-nav {padding-top: 25px;}
+button#accountDropdown {padding: 5px 10px 5px 0;}
+/* - Button/Icon Color Branding Text - */
+.spinner,
+.btn-link,
+.btn-link:hover,
+.nav>li>a:hover,
+#page-links a:hover,
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus,
+.product-tile .product-footer,
+.Analytics__Stats .Analytics__Statistic.active a,
+a.ember-view.admin-product-table__product-link:hover {color: #105400;}
+/* - Button/Icon Color Branding Background - */
+.btn-info,
+.feature-region,
+.Icon__CircleWrap--info,
+.product-flag.product-flag-free,
+.ProductIcon__LargeCircle--course,
+.ProductIcon__SmallCircle--course,
+#search-form.callout-region {background: #105400;}
+/* - Button/Icon Color :hover - */
+.btn-info:hover,
+.btn-info:focus,
+.ProductIcon__LargeCircle--course:focus {background: #003300;}
+.product-results .product-tile:hover {box-shadow: inset 0px -5px 0px #105400;}
+/* home-page styles  */
+#home-page .feature-region {display: block;}
+#home-page .feature-region {
+	box-sizing: border-box;
+	text-align: center;
+	background: #ffffff;
+	background-size: contain;
+	color: #333333;
+	padding: 5px 0 20px 0;}
+.product-tile .product-footer .product-price,
+.product-tile .product-footer .product-value,
+.product-account-logo,
+#search-form {display:none;}
+.RegistrationForm__Field {
+  display: none;
+  margin-bottom: 15px;
+}
+.product-tile .product-footer .product-dates {
+  height: 30px;
+  padding-top:10px;
+}
+#home-page .feature-region {display: block;}
+#home-page .feature-region {
+	box-sizing: border-box;
+	text-align: center;
+	background: #ffffff;
+	background-size: contain;
+	color: #333333;
+	padding: 5px 0 20px 0;
+}
+.feature-region {background-image: inherit;}
+.AccountDropdown--margin-top {margin-top:0;}
