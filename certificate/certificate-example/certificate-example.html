@@ -1,0 +1,60 @@
+<html>
+  <head>  
+    <style>
+      h1,h2,h3,h4,h5 {
+        margin:0 0 1em
+        }
+      body,html {
+        padding:0;
+        margin:0;
+        }
+      body {
+        border: 6px double black;
+        align-items:center;
+        background-image:url('');
+        background-repeat:no-repeat;
+        background-position:center;
+        }
+      .container {
+        box-sizing: border-box;
+        text-align:center;
+        padding: 50px 30px 0;
+        }
+      th { 
+        max-width:800px;
+        max-height:300px;
+        padding: 40px;
+        }
+      table.center { 
+        margin-left:auto;
+        margin-right:auto;
+        }
+      .thin { 
+        font-weight:lighter;
+        }
+    </style>    
+  </head>
+  <body>
+    <div class="container">
+      <table class="center">
+        <tr>
+          <th><img width="200" height="150" src=""></th>
+        </tr>
+      </table>     
+      <h1>Certificate of Attendance</h1>
+      <h4>Presented To:</h4>
+      <h2><u><em>{{student_name}}</em></u></h2>
+      <h5><em>For Successfully Completing</em></h5>
+      <h3>{{award_name}}</h3>
+      <h5><em><span class="thin">Activity ID # </span><strong>2017 - *** - ****</strong></em></h5>
+      <h5>Date of Completion: <u>{{completion_date}}</u>, for 1 contact hour</h5>
+      <h4><strong>Example University is an accredited provider of education by the Example University Commission on Accreditation (EUCA)</strong></h4>
+      <table class="center">
+        <tr>
+          <th><h5><em class="thin">Example University</br>123 Park Drive, Suite 700</br> Salt Lake City, UT</em></h5></th>
+          <th><h5><span class="thin"><u><em>John Smith, MBA</em></u><br><em>John Smith Signature</em></span></h5></th>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
