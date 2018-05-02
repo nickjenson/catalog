@@ -1,10 +1,9 @@
-/* - This stylizes the injected links within the #user-nav element, and updates various icon colors - */
-/* - Default Element Styles - */
-a {
-  color: #495967;
+/* - variables- */
+:root {
+  --main-color: #006ec7;
 }
-
-/* - #user-nav Styles - */
+/* - #user-nav - */
+a {color: #495967;}
 #user-nav {
   padding-top: 25px;
 }
@@ -16,53 +15,26 @@ a {
   padding: 5px 10px 5px 0;
   font-size: 14px;
 }
-#page-links .piped-list>li:after {
-  content: "|";
-}
-#page-links .piped-list>li:before {
-  display: none;
-  margin-right: 0;
-}
 button#accountDropdown {
   padding: 5px 10px 5px 0;
 }
-
-/* - Button/Icon Color Branding Text - */
-.spinner,
-.btn-link,
-.btn-link:hover,
-.nav>li>a:hover,
-#page-links a:hover,
-.nav-tabs>li.active>a,
-.nav-tabs>li.active>a:hover,
-.nav-tabs>li.active>a:focus,
-.product-tile .product-footer,
-.Analytics__Stats .Analytics__Statistic.active a,
-a.ember-view.admin-product-table__product-link:hover {
-  color: #006ec7;
+/* - button/icon text - */
+.spinner, .btn-link, .btn-link:hover, .nav>li>a:hover, #page-links a:hover, .nav-tabs>li.active>a .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus, .product-tile .product-footer, .Analytics__Stats .Analytics__Statistic.active a, a.ember-view.admin-product-table__product-link:hover {
+  color: var(--main-color);
 }
-
-/* - Button/Icon Color Branding Background - */
-.btn-info,
-.feature-region,
-.Icon__CircleWrap--info,
-.product-flag.product-flag-free,
-.ProductIcon__LargeCircle--course,
-.ProductIcon__SmallCircle--course {
-  background: #006ec7;
+/* - button/icon background - */
+.btn-info, .feature-region, .Icon__CircleWrap--info, .product-flag.product-flag-free, .ProductIcon__LargeCircle--course, .ProductIcon__SmallCircle--course {
+  background: var(--main-color);
 }
-
-/* - Button/Icon Color :hover - */
-.btn-info:hover,
-.btn-info:focus,
-.ProductIcon__LargeCircle--course:focus {
-  background: #153A86;
+/* - button :hover - */
+.btn-info:hover, .btn-info:focus, .ProductIcon__LargeCircle--course:focus {
+  background: var(--main-color);
+  filter: brightness(85%);
 }
 .product-results .product-tile:hover {
-  box-shadow: inset 0px -5px 0px #006ec7;
+  box-shadow: inset 0px -5px 0px var(--main-color);
 }
-
-/* - Feature Region/Search Bar - */
+/* - feature-search - */
 .feature-region {
   background-image: inherit;
 }
